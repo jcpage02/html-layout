@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(214, 212, 212);
+    height: 75px;
+}
+
+header div {
+    background-color: rgb(89, 145, 228);
+    height: 60px;
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 7px;
+    float: left;
+}
+
+.text {
+    height: calc(100vh - 375px);
+    position: relative;
+}
+.text div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.blue-box {
+    background-color: rgb(89, 145, 228);
+    height: 75px;
+}
+
+.turq-box {
+    background-color: rgb(64, 224, 197);
+    height: 75px;
+}
+
+.green-box {
+    background-color: rgb(175, 230, 104);
+    height: 75px;
+}
+
+.yellow-box {
+    background-color: rgb(255, 252, 88);
+    height: 75px;
+}
